@@ -15,6 +15,12 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Sakura flags
+SAKURA_MAINTAINER := luckyakalucka
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SCREEN_HEIGHT := 1520
+TARGET_SCREEN_WIDTH := 720
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_onclite
 PRODUCT_DEVICE := onclite
